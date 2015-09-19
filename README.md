@@ -22,13 +22,5 @@ npm install starwars-names
 ## Usage
 
 ```javascript
-var names = require('starwars-names');
-var allNames = names.all;
-var randomName = names.random();
-var threeRandomNames = names.random(3);
 ```
 
-## Other
-
-This library was developed by [Kent C. Dodds](https://twitter.com/kentcdodds) as part of an
-[egghead.io](http://egghead.io/) series called "How to Write a JavaScript Library."
