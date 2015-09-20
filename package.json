@@ -1,6 +1,5 @@
 {
   "name": "Profiles-Node",
-  "version": "0.0.0",
   "description": "Get random Star Wars names",
   "main": "dist/index.js",
   "scripts": {
@@ -41,7 +40,7 @@
     "ghooks": "0.3.2",
     "istanbul": "0.3.18",
     "mocha": "2.2.5",
-    "semantic-release": "^4.2.1"
+    "semantic-release": "^4.3.5"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
