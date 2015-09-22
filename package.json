@@ -1,7 +1,6 @@
 {
   "name": "profilessdk",
   "description": "SDK for Profiles api",
-  "version": "0.0.1",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
