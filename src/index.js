@@ -8,8 +8,6 @@ module.exports = {
   random: random
 };
 
-// add this for testing
-
 function random(number) {
   if (number === undefined) {
     return getRandomItem();
