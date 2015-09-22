@@ -17,6 +17,8 @@ module.exports = {
   random: random
 };
 
+// test comment
+
 function random(number) {
   if (number === undefined) {
     return getRandomItem();
