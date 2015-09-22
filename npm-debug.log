@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.14.2
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose stack Error: No version provided
+6 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:52:36
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+6 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+6 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+6 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+6 verbose stack     at evalmachine.<anonymous>:334:14
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/graceful-fs.js:102:5
+6 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
+7 verbose cwd /Users/nidwalden/sites/Profiles-Node
+8 error Darwin 14.3.0
+9 error argv "node" "/usr/local/bin/npm" "publish"
+10 error node v0.12.7
+11 error npm  v2.14.2
+12 error No version provided
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

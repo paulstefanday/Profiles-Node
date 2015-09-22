@@ -1,6 +1,6 @@
 {
   "name": "Profiles-Node",
-  "description": "Get random Star Wars names",
+  "description": "SDK for Profiles api",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
@@ -22,7 +22,7 @@
     "star",
     "wars"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Paul Day",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/paulstefanday/Profiles-Node/issues"
