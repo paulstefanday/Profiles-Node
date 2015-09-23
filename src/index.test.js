@@ -18,6 +18,13 @@ describe('starwars-names', function() {
     });
   });
 
+  describe('first', function() {
+    it('should equal 4-LOM', function() {
+      var first = starWars.first();
+      expect(first).to.equal("4-LOM");
+    })
+  })
+
   describe('random', function() {
     it('should return a random item from the starWars.all', function() {
       var randomItem = starWars.random();
